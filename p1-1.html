@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <style>
+            .pr
+            {
+                width:100%;
+                height: 700px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .pr-heading{
+                width:80%;
+                height: 150px;
+                background-color: antiquewhite;
+                text-transform: capitalize;
+                font-size: 1.3em;
+            }
+            .code
+            {
+                width: 80%;
+                height:90%;
+                background-color: rgb(28, 28, 37); 
+            }
+            fieldset{
+                height: 100%;
+                color: rgb(255, 255, 255);
+                font-size: 1.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="pr">
+        <div class="pr-heading">
+            <h1>  check a number even or odd </h1>
+        </div>
+        <div class="code">
+          <fieldset>
+                <pre>
+                    <code>
+                        #include "stdio.h"
+                        main()
+                        {
+                           int num;
+                           printf("Enter the number\n");
+                           scanf("%d",&num);
+                           if(num%2==0)
+                            {
+                                printf("%d is a Even number",num);    
+                            }
+                           else
+                           {
+                                printf("%d is a Odd number",num);
+                           } 
+                        }
+                    </code>
+                </pre>
+          </fieldset>
+        </div>
+    </div>
+    </body>
+</html>

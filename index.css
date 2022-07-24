@@ -170,7 +170,11 @@
     height: 40px;
     width:100%;
     position: absolute;
-    top:50%;
+    top:30%;
+    text-align: justify;
+    font-size: 1.1em;
+    color: #272c26;
+    padding:3px;
 }
 .f1 button
 {

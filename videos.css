@@ -86,6 +86,11 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+iframe
+{
+    width:80%;
+    height: 30%;
+}
 .cpp
 {
     height:30%;

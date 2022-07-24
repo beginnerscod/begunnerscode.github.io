@@ -334,7 +334,7 @@
 .vid
 {
     width: 100%;
-    height:1200px;
+    height:1600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -364,7 +364,7 @@
 }
 iframe
 {
-    width:80%;
+    width:90%;
     height: 30%;
 }
 .cpp
